@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 
@@ -8,10 +8,15 @@ const notoSansKr = Noto_Sans_KR({
   display: "swap",
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export const metadata: Metadata = {
   title: "배달오토바이 렌트 서비스",
   description: "안전하고 믿을 수 있는 배달오토바이 렌트 서비스",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   keywords: "배달오토바이, 오토바이렌트, 배달대행, 배달오토바이렌트",
   authors: [{ name: "bikemodoo" }],
   openGraph: {

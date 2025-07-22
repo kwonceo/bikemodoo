@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { BikeIcon } from './icons/BikeIcon';
 
-export const HeroSection = () => {
+const HeroSection = () => {
   return (
     <section className="relative min-h-screen overflow-hidden">
       {/* 애니메이션 배경 */}
@@ -58,4 +58,6 @@ export const HeroSection = () => {
       </div>
     </section>
   );
-}; 
+};
+
+export default HeroSection; 
