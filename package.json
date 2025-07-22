@@ -1,9 +1,13 @@
 {
   "name": "bikemodoo",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Git 설치: https://git-scm.com/downloads\r 2. GitHub에서 새 repository 생성\r 3. 원격 저장소 연결:\r    ```bash\r    git remote add origin [GitHub URL]\r    git push -u origin main\r    ```",
   "scripts": {
     "backup": "git add . && git commit -m \"Auto backup %DATE%\" && git push",
     "save": "npm run backup"
-  }
-} 
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
