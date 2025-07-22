@@ -1,0 +1,9 @@
+{
+  "name": "bikemodoo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "backup": "git add . && git commit -m \"Auto backup %DATE%\" && git push",
+    "save": "npm run backup"
+  }
+} 
