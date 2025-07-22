@@ -10,7 +10,7 @@ const HeroSection = () => {
       
       {/* 오토바이 애니메이션 */}
       <motion.div
-        className="absolute w-24 h-24 bike-animation"
+        className="absolute w-24 h-24"
         initial={{ x: '-100%' }}
         animate={{ x: '100%' }}
         transition={{
