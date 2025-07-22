@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BikeIcon } from './icons/BikeIcon';
+import BikeIcon from './icons/BikeIcon';
 
 const HeroSection = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const BikeIcon = () => (
+const BikeIcon = () => (
   <svg
     width="100%"
     height="100%"
@@ -31,4 +31,6 @@ export const BikeIcon = () => (
       strokeLinejoin="round"
     />
   </svg>
-); 
+);
+
+export default BikeIcon; 
